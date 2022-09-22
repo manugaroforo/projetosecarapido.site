@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Google Fonts */
+
+/* Reset */
+body, html {
+	font-family: 'Montserrat', sans-serif !important;
+}
+body {
+  background: black !important;
+}
+/* Reset */
+
+/* Header */
+header.header {
+    background: red;
+    padding: 10px 0;
+}
+header.header h1 {
+    text-align: center;
+    font-size: 25px;
+    color: yellow;
+    font-weight: 600;
+    margin: 0 auto;
+}
+/* Header */
+
+/* Headline */
+section.headline {
+    margin: 50px 0 0 0;
+}
+section.headline h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.4;
+    margin: 0 auto 25px auto;
+}
+section.headline h1 span {
+    color: red;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+section.headline p {
+    color: white;
+    text-align: center;
+    margin: 0 auto 5px auto;
+}
+/* Headline */
+
+/* Video */
+.video-item {
+    clear: both;
+    display: block;
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+a.cta {
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    background: green;
+    color: white !important;
+    text-decoration: none;
+    padding: 25px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 350px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+/* Video */
+
+/* Footer */
+footer.footer {
+    background: black;
+    padding: 50px 0;
+}
+footer.footer p {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    margin: 15px auto;
+}
+/* Footer */
+
+/* Responsivo */
+@media (max-width: 800px) {
+	
+	/* Header */
+	header.header h1 {
+		font-size: 16px;
+	}	
+	/* Header */
+	
+	/* Headline */
+	section.headline h1, section.headline h1 span {
+		font-size: 21px;
+	}
+	section.headline h2 {
+		font-size: 18px;
+	}	
+	/* Headline */
+	
+	/* Video */
+	.video-item {
+		width: 100%;
+	}
+	a.cta {
+		width: 100%;
+	}	
+	/* Video */
